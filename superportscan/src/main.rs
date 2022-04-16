@@ -20,8 +20,8 @@ fn main() {
         )
         .arg(
             Arg::with_name("port")
-                .short("port")
-                .long("p")
+                .short("p")
+                .long("port")
                 .help("target port| example: 1-1000")
                 .default_value("default_port"),
         )
